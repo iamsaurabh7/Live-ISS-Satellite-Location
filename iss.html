@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Satellite</title>
+    <style>
+        h1 {
+            background-color: rgb(195, 225, 225);
+            padding: 10px;
+        }
+
+        #outerBox {
+            display: block;
+            border: 2px solid black;
+            border-radius: 7px;
+            padding: 50px;
+        }
+
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Live ISS Satellite Location</h1>
+    <div id="outerBox">
+        Latitude : <span id="latitude"></span>
+        <br><br>
+        Longitude : <span id="longitude"></span>
+    </div>
+    <div id="map"></div>
+    <script src="./iss.js"></script>
+</body>
+
+</html>
